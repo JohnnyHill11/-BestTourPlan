@@ -136,9 +136,6 @@
   &:-moz-placeholder {
     color: $primary-text-color;
   }
-  &::-moz-placeholder {
-    color: $primary-text-color;
-  }
   &:-ms-input-placeholder {  
     color: $primary-text-color;
   }
@@ -178,12 +175,12 @@
     font-size: 24px;
   }
 }
-.header-search__shopping {
+.header-search__cart {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header-search__shopping-link {
+.header-search__cart-link {
   position: absolute;
   top: -4px;
   left: 90px;
