@@ -36,7 +36,7 @@
         <div class="container">
           <div class="row header-search">
             <div class="col-md-4 col-lg-3 header-search__logo">
-              <a class="logo" href="#" aria-label="to go main section">
+              <a class="logo" href="#" aria-label="to go hotel">
                 <img class="logo__img" src="images/logo.svg" alt="logo">
               </a>
             </div>
@@ -95,105 +95,372 @@
         </div>
       </div>
     </header>
-    <section class="hotel">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 hotel__nav">
-            <ul class="hotel__list">
-              <li class="hotel__list-item">
-                <a class="hotel__list-link" href="#" aria-label="to go new page">Home</a>
-              </li>
-              <li class="hotel__list-item">
-                <a class="hotel__list-link" href="#" aria-label="to go new page">/ Flash Offers</a>
-              </li>
-              <li class="hotel__list-item">
-                <span class="hotel__list-text">/ Grand Hilton Hotel</span>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 hotel__stars">
-            <span class="icon icon-star_gold hotel__star-gold"></span>
-            <span class="icon icon-star_gold hotel__star-gold"></span>
-            <span class="icon icon-star_gold hotel__star-gold"></span>
-            <span class="icon icon-star_gold hotel__star-gold"></span>
-            <span class="icon icon-star_gold hotel__star-gold"></span>  
-          </div>
-        </div>
-        <div class="row">
-          <div class="col col-sm-10 col-md-8 col-lg-6 col-xl-5 hotel__info">
-            <div class="hotel__title">
-              <h1 class="hotel__title-name">GRAND HILTON HOTEL</h1>
-              <div class="hotel__offer">Flash Offer</div>
+    <main>
+      <section class="hotel">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 hotel__nav">
+              <ul class="hotel__list">
+                <li class="hotel__list-item">
+                  <a class="hotel__list-link" href="#" aria-label="to go new page">Home</a>
+                </li>
+                <li class="hotel__list-item">
+                  <a class="hotel__list-link" href="#" aria-label="to go new page">/ Flash Offers</a>
+                </li>
+                <li class="hotel__list-item">
+                  <span class="hotel__list-text">/ Grand Hilton Hotel</span>
+                </li>
+              </ul>
             </div>
-            <span class="hotel__half-board">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</span>
+            <div class="col-12 hotel__stars">
+              <span class="icon icon-star_gold hotel__star-gold"></span>
+              <span class="icon icon-star_gold hotel__star-gold"></span>
+              <span class="icon icon-star_gold hotel__star-gold"></span>
+              <span class="icon icon-star_gold hotel__star-gold"></span>
+              <span class="icon icon-star_gold hotel__star-gold"></span>  
+            </div>
           </div>
-          <div class="col-sm-2 offset-md-2 col-lg-1 offset-lg-5 offset-xl-6 hotel__ratting">
-            <div class="hotel__ratting-user ">
-              <span class="hotel__ratting-text">User Rattings</span>4.5/5</span>
-            </div> 
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 hotel__slider">
-            <picture>
-              <source media="(min-width: 768px)"
-                      srcset="./images/slider_hotel_1X.webp 1x,
-                              ./images/slider_hotel_2X.webp 2x"
-                      type="image/webp">
-              <source media="(min-width: 768px)"
-                      srcset="./images/slider_hotel_1X.jpg 1x,
-                              ./images/slider_hotel_2X.jpg 2x"
-                      type="image/jpeg">
-              <source media="(min-width: 576px)"
-                      srcset="./images/slider_hotel_1X_576.webp 1x,
-                              ./images/slider_hotel_2X_576.webp 2x"
-                      type="image/webp">
-              <source media="(min-width: 576px)"
-                      srcset="./images/slider_hotel_1X_576.jpg 1x,
-                              ./images/slider_hotel_2X_576.jpg 2x"
-                      type="image/jpeg">
-              <source srcset="./images/slider_hotel_1X_320.webp 1x,
-                              ./images/slider_hotel_2X_320.webp 2x"
-                      type="image/webp">
-              <source srcset="./images/slider_hotel_1X_320.jpg 1x,
-                              ./images/slider_hotel_2X_320.jpg 2x"
-                      type="image/jpeg">
-              <img class="hotel__img" src="./images/slider_hotel_1X.jpg" alt="image_hotel" loading="lazy">
-            </picture>
-          </div>
-          <div class="col-sm-12 col-lg-4 ">
-            <div class="hotel__booking">
-              <div class="hotel__price-person"> 
-                <div class="hotel__price">
-                  <span class=" hotel__price-start">price starts as</span>
-                  <span class="hotel__price-amount">$ 8,500</span>
-                  <span class="hotel__price-room">per room / night</span>
-                </div>
-                <div class="hotel__person">
-                  <span class="icon icon-user hotel__person-item hotel__icon-user">2 x Guests</span>
-                  <span class="icon icon-home hotel__person-item hotel__icon-home">1 x Room</span>
-                </div>
+          <div class="row">
+            <div class="col col-sm-10 col-md-8 col-lg-6 col-xl-5 hotel__info">
+              <div class="hotel__title">
+                <h1 class="hotel__title-main">GRAND HILTON HOTEL</h1>
+                <div class="hotel__offer">Flash Offer</div>
+              </div>
+              <span class="hotel__half-board">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</span>
+            </div>
+            <div class="col-sm-2 offset-md-2 col-lg-1 offset-lg-5 offset-xl-6 hotel__ratting">
+              <div class="hotel__ratting-user ">
+                <span class="hotel__ratting-text">User Rattings</span>4.5/5
               </div> 
-              <div class="hotel__call-center">
-                <span class="hotel__call-item">Quick Booking</span>
-                <a class="hotel__call-item" href="tel:12100">12100</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 hotel__slider">
+              <picture>
+                <source media="(min-width: 768px)"
+                        srcset="./images/slider_hotel_1X.webp 1x,
+                                ./images/slider_hotel_2X.webp 2x"
+                        type="image/webp">
+                <source media="(min-width: 768px)"
+                        srcset="./images/slider_hotel_1X.jpg 1x,
+                                ./images/slider_hotel_2X.jpg 2x"
+                        type="image/jpeg">
+                <source media="(min-width: 576px)"
+                        srcset="./images/slider_hotel_1X_576.webp 1x,
+                                ./images/slider_hotel_2X_576.webp 2x"
+                        type="image/webp">
+                <source media="(min-width: 576px)"
+                        srcset="./images/slider_hotel_1X_576.jpg 1x,
+                                ./images/slider_hotel_2X_576.jpg 2x"
+                        type="image/jpeg">
+                <source srcset="./images/slider_hotel_1X_320.webp 1x,
+                                ./images/slider_hotel_2X_320.webp 2x"
+                        type="image/webp">
+                <source srcset="./images/slider_hotel_1X_320.jpg 1x,
+                                ./images/slider_hotel_2X_320.jpg 2x"
+                        type="image/jpeg">
+                <img class="hotel__img" src="./images/slider_hotel_1X.jpg" alt="image_hotel" loading="lazy">
+              </picture>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="hotel__booking">
+                <div class="hotel__price-person"> 
+                  <div class="hotel__price">
+                    <span class=" hotel__price-start">price starts as</span>
+                    <span class="hotel__price-amount">$ 8,500</span>
+                    <span class="hotel__price-room">per room / night</span>
+                  </div>
+                  <div class="hotel__person">
+                    <span class="icon icon-user hotel__person-item hotel__icon-user">2 x Guests</span>
+                    <span class="icon icon-home hotel__person-item hotel__icon-home">1 x Room</span>
+                  </div>
+                </div> 
+                <div class="hotel__call-center">
+                  <span class="hotel__call-item">Quick Booking</span>
+                  <a class="hotel__call-item" href="tel:12100">12100</a>
+                </div>
+                <div class="hotel__button">
+                <button class="hotel__button-options" type="submit">View Other Options</button>
+                </div>
               </div>
-              <div class="hotel__button">
-              <button class="hotel__button-options" type="submit">View Other Options</button>
+              <iframe class="hotel__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.5053349576365!2d35.053024215893004!3d48.46601993620657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2c2a31220a1%3A0x9ffb0c281aeab08e!2z0JrQvtC80L_RjNGO0YLQtdGA0L3QsNGPINGI0LrQvtC70LAgSGlsbGVs!5e0!3m2!1sru!2sua!4v1598883209983!5m2!1sru!2sua" 
+                                              height="213">
+              </iframe>
+            </div>
+          </div>
+          <div class="row hotel-menu">
+            <nav class="col hotel-menu__nav">
+              <ul class="hotel-menu__list">
+                <li class="hotel-menu__list-item">
+                  <button class="hotel-menu__button hotel-menu__button--active">Package Summery</button>
+                </li>
+                <li class="hotel-menu__list-item">
+                  <button class="hotel-menu__button">Hotel Information</button>
+                </li>
+                <li class="hotel-menu__list-item">
+                  <button class="hotel-menu__button">Rooms</button>
+                </li>
+                <li class="hotel-menu__list-item">
+                  <button class="hotel-menu__button">Facilities & Activities</button>
+                </li>
+                <li class="hotel-menu__list-item">
+                  <button class="hotel-menu__button">Dining & Entertainment</button>
+                </li>
+                <li class="hotel-menu__list-item">
+                  <button class="hotel-menu__button">Reviews</button>
+                </li>
+                <li class="hotel-menu__list-item">
+                  <button class="hotel-menu__button">Questions & Answers</button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h2 class="hotel__title-main">Package Summery</h2>
+            </div>
+          </div>
+          <div class="row">  
+            <div class="col-md-6 hotel__package-highlights">
+              <h3 class="hotel__title-highlights">Package Highlights</h3>
+              <div class="row hotel__package-bg">
+                <div class="col-md-6">
+                  <ul class="hotel-highlights__list ">
+                    <li class="hotel-highlights__list-item">
+                      <span class="icon icon-check_big hotel__icon-check"></span>
+                      Half Board/ All Inclusive
+                    </li>
+                    <li class="hotel-highlights__list-item">
+                      <span class="icon icon-check_big hotel__icon-check"></span>
+                      Child Under 11 Years Stay Free
+                    </li>
+                    <li class="hotel-highlights__list-item">
+                      <span class="icon icon-check_big hotel__icon-check"></span>
+                      LUX* Me Spa
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="hotel-distinctive__list">
+                    <li class="hotel-distinctive__list-item">
+                      <span class="icon icon-check_big hotel__icon-check"></span>
+                      Luxurious 5-Star Hotel
+                    </li>
+                    <li class="hotel-distinctive__list-item">
+                      <span class="icon icon-check_big hotel__icon-check"></span>
+                      Banyan An Adult Only Zone
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>  
+            <div class="col-md-6 hotel__package-details">
+              <h3 class="hotel__title-offer">Offer Details</h3>
+              <div class="row hotel__package-bg">
+                <div class="col-md-6">
+                  <p class="hotel__details-text">
+                    <span class="icon icon-check_big hotel__icon-check"></span>
+                    Benefit from a special discounted CHILL’OUT OFFER at Grand Hilton Hotel.
+                  </p>
+                </div>
+                <div class="col-md-6 hotel__details-date">
+                  <span class="icon icon-calendar hotel__icon-calendar"></span>
+                  10th March - 30th April 2020
+                </div>
+                <span class="hotel__details-valid">* Valid until 30 April 2020</span>
               </div>
             </div>
-              <iframe class="hotel__map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.5053349576365!2d35.053024215893004!3d48.46601993620657!
-                    2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2c2a31220a1%3A0x9ffb0c281aeab08e!2z0JrQvtC80L_RjNGO0YLQtdGA0L3QsNGPINGI0L
-                    rQvtC70LAgSGlsbGVs!5e0!3m2!1sru!2sua!4v1598883209983!5m2!1sru!2sua"
-                    loading="lazy"
-                    width="100%"
-                    height="213">
-            </iframe>
           </div>
-        </div>
-      </div>
-    </section>
+          <div class="row">
+            <div class="col-12">
+              <h3 class="hotel__title-package">Package Summery Details</h3>
+              <div class="row hotel__package-bg hotel__package-decor">
+                <div class="col-md-4">
+                  <h4 class="hotel__title-item">Purchase Inclusions</h4>
+                  <ul class="hotel-activities__list">
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Room as per selection
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Half Board or All Inclusive Meal Plan
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Complimentary Land & Water activities
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Child Under 11 years old stays free
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Free Wi-Fi
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Free Secure Parking
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="hotel__title-item">Complimentary Land Based Activities</h4>
+                  <ul class="hotel-activities__list">
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Gym
+                      </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Beach Volley
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Table tennis
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Soccer balls
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Yoga
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Unlimited access to driving range
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="hotel__title-item">Complimentary Water Based Activities</h4>
+                  <ul class="hotel-activities__list">
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Water skiing
+                      </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Windsurfing
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Pedal boats
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Kayaking
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Aqua Gym
+                    </li>
+                    <li class="hotel-activities__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span> 
+                      Glass bottom boat trips
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hotel__package-bg">
+                <div class="col-md-4">
+                  <h4 class="hotel__title-item">Meal Plan Available</h4>
+                  <ul class="hotel-details__list">
+                    <li class="hotel-details__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Half Board
+                    </li>
+                    <li class="hotel-details__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      All Inclusive
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="hotel__title-item">Entertainment</h4>
+                  <ul class="hotel-details__list">
+                    <li class="hotel-details__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Live music
+                    </li>
+                    <li class="hotel-details__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      DJ & Mauritian Dance Show
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="hotel__title-item">Check In & Check Out</h4>
+                  <ul class="hotel-details__list">
+                    <li class="hotel-details__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Check In Time 14:00
+                    </li>
+                    <li class="hotel-details__list-item">
+                      <span class="icon icon-check_small hotel__icon-check"></span>
+                      Check Out Time 11:00
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>   
+        </div>     
+      </section>
+      <section class="newsletter">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-6 col-lg-4 offset-lg-2 col-xl-3 newsletter__text">
+              <span class="newsletter__text-small">subscribe to our</span>
+              <h2 class="newsletter__title">Newsletter</h2>
+            </div>
+            <div class="col-md-6 col-lg-6 offset-xl-1 col-xl-4 ">
+              <form class="newsletter__form">
+                <input class="newsletter__input" aria-label="your email address" type="text" name="your email address" placeholder="Your email address">
+                <button class="newsletter__button" type="submit" aria-label="search for location">Send
+                </button> 
+              </form>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <section class="activities">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="activities__title">Other Activities</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-xl-3 activities__cards">
+              <div class="activities__card activities__card--one">
+                <span  class="activities__text activities__text--one">The curious corner of chamarel</span>
+                <button class="activities__button" type="submit">Book Now</button>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3 activities__cards">
+              <div class="activities__card activities__card--two">
+                <span class="activities__text activities__text--two"> Gymkhana club golfcourse</span>
+                <button class="activities__button" type="submit">Book Now</button>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3 activities__cards">
+              <div class="activities__card activities__card--three">
+                <span class="activities__text activities__text--three"> Tamarind falls hiking trip - full day</span>
+                <button class="activities__button" type="submit">Book Now</button>
+            </div>
+            </div>  
+            <div class="col-sm-6 col-xl-3 activities__cards">
+              <div class="activities__card activities__card--four">
+                <span  class="activities__text activities__text--four">The blue marine discovery quest</span>
+                <button class="activities__button" type="submit">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+    </main>
     <script src="./bootstrap/dist/js/jquery-3.5.1.min.js"></script>
     <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
