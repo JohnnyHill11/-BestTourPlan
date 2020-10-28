@@ -1,6 +1,7 @@
 .hotel {
   background: $bg-color;
   padding-top: 18px;
+  padding-bottom: 65px;
 }
 .hotel__nav {
   display: flex;
@@ -340,8 +341,10 @@
 }
 .hotel__package-bg {
   background: $secondary-color;
+  margin-left: 0;
+  margin-right: 0;
 }
-.hotel__title-main {
+.hotel__title-secondary {
   font-family: $primary-font-family;
   font-weight: bold;
   font-size: 24px;

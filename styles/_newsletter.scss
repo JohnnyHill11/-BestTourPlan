@@ -44,7 +44,7 @@
 .newsletter__input {
   background: $bg-color;
   border-radius: 4px 0 0 4px;
-  color: $secondary-color;
+  color: $rare-color;
   font-family: $primary-font-family;
   font-weight: 300;
   font-size: 14px;
@@ -78,4 +78,16 @@
   line-height: 1.3;
   padding: 20px 18px;
   border-radius: 0 4px 4px 0;
+  &:hover {
+    color: #440d8b;
+    background: #18cee6;
+  }
+  &:focus {
+    color: #141b09;
+    background: #e9d30f;
+  }
+  &:active {
+    color: #2f92e4;
+    background: #531608;
+  }
 }

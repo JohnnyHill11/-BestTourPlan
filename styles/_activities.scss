@@ -14,6 +14,9 @@
   color: $rare-color;
   text-align: center;
   margin-bottom: 57px;
+  @include media-breakpoint-up (xl) {
+   text-align: start;
+  }
 }
 .activities__cards {
   display: flex;
@@ -36,22 +39,22 @@
     margin-bottom: 0;
   }
 }
-.activities__card--one {
+.activities__card-one {
   background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url('../images/activities_img_1.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
-.activities__card--two {
+.activities__card-two {
   background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url('../images/activities_img_2.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
-.activities__card--three {
+.activities__card-three {
   background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url('../images/activities_img_3.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
-.activities__card--four {
+.activities__card-four {
   background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url('../images/activities_img_4.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -65,16 +68,16 @@
   height: 40px;
   margin-bottom: 18px;
 }
-.activities__text--one {
+.activities__text-one {
   width: 145px;
 }
-.activities__text--two {
+.activities__text-two {
   width: 152px;
 }
-.activities__text--three {
+.activities__text-three {
   width: 160px;
 }
-.activities__text--four {
+.activities__text-four {
   width: 200px;
 }
 .activities__button{
@@ -89,7 +92,7 @@
   text-transform: capitalize;
   text-align: center;
   &:hover {
-    color: #440d8b;
+    color: #d80629;
     background: $secondary-color;
   }
   &:focus {

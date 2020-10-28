@@ -154,6 +154,18 @@
   width: 65px;
   height: 40px;
   border-radius: 0 6px 6px 0;
+  &:hover {
+    color: #440d8b;
+    background: #18cee6;
+  }
+  &:focus {
+    color: #85ca16;
+    background: #e9d30f;
+  }
+  &:active {
+    color: #2f92e4;
+    background: #531608;
+  }
   @include media-breakpoint-up (md) {
     width: 50px;
   }
