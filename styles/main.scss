@@ -1,11 +1,13 @@
 @import './bootstrap/bootstrap';
 @import './variables';
+@import './mixins';
 @import './custom_reset';
 @import './icomoon';
 @import './typography';
 @import './header';
 @import './hotel';
 @import './packages';
-@import'./rewiev';
+@import './rewiev';
 @import './newsletter';
-@import'./activities';
+@import './activities';
+@import './info';

@@ -234,6 +234,15 @@
   width: 130px;
   height: 40px;
   background: $secondary-color;
+  &:hover {
+    color: $tertiary-color;
+  }
+  &:focus {
+    color: #85ca16;
+  }
+  &:active {
+    color: #2f92e4;
+  }
   @include media-breakpoint-up (sm) {
     width: 150px;
   }  
@@ -294,6 +303,6 @@
     color: $tertiary-color;
   }
   &:focus {
-    color: $bg-color;
+    color: #e7e40e;
   }
 }

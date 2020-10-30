@@ -1,6 +1,7 @@
 .packages {
   @include media-breakpoint-up (lg) {
     padding-top: 40px;
+    padding-bottom: 70px;
   }
 }
 .packages__title-main {
@@ -16,7 +17,7 @@
     margin-bottom: 65px;
   }
 }
-.packages__blue-haven {
+.packages__main-item {
   @include media-breakpoint-up (sm) {
     display: flex;
     flex-direction: column;
@@ -29,7 +30,7 @@
     align-items: flex-start;    
   }     
 }
-.packages__belle-mare {
+.packages__item {
   @include media-breakpoint-up (sm) {
     display: flex;
     flex-direction: column;
