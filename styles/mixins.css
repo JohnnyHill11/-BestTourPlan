@@ -1,0 +1,15 @@
+.newsletter {
+  width: 320px;
+  height: 326px;
+  background-image: url("../images/newsletter_img_1X.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .newsletter {
+    background-image: url("../images/newsletter_img_2X.jpg");
+  }
+}
+/*# sourceMappingURL=mixins.css.map */
