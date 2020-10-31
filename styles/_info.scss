@@ -82,15 +82,15 @@
     font-size: 14px;
   }
 }
-.info__network {
-  margin-bottom: 20px;
-  @include media-breakpoint-up (xl) {
-    display: flex;
-    margin-bottom: 0;
-    margin-left: 0px;
-  }
-}
-.info-network__list {
+// .info__network {
+//   margin-bottom: 20px;
+//   @include media-breakpoint-up (xl) {
+//     display: flex;
+//     margin-bottom: 0;
+//     margin-left: 0px;
+//   }
+// }
+.network-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,7 +107,7 @@
     margin-top: -34px;
   }
 }
-.info-network__list-item {
+.network-list__item {
   margin-right: 10px;
   &:last-child {
     margin-right: 0;
@@ -127,9 +127,7 @@
 .info__icon-facebook {
   font-size: 24px;
 }
-.info__icon-youtube {
-  font-size: 21px;
-}
+.info__icon-youtube,
 .info__icon-instagram {
   font-size: 21px;
 }
@@ -176,13 +174,13 @@
     text-align: start;
   }
 }
-.info-contacts__list-item {
+.contacts-list__item {
   margin-bottom: 20px;
   display: flex;
   justify-content: start;
   align-items: center;
 }
-.info-contacts__list-link {
+.contacts-list__link {
   font-family: $primary-font-family;
   font-weight: normal;
   font-size: 14px;
@@ -304,12 +302,12 @@
   }
 }
 .info__text-required {
-font-family: $primary-font-family;
-font-weight: bold;
-font-size: 12px;
-line-height: 1.3;
-color: $secondary-text-color;
-text-align: start;
+  font-family: $primary-font-family;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3;
+  color: $secondary-text-color;
+  text-align: start;
 }
 .info__img {
   position: absolute;
@@ -324,15 +322,13 @@ text-align: start;
     top: 402px;
   }
   @include media-breakpoint-up (lg) {
-    right: 15px;
     top: 420px;
   }
   @include media-breakpoint-up (xl) {
-    right: 15px;
     top: 400px;
   }
 }
-.info-bottom__list {
+.bottom-list {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -344,10 +340,10 @@ text-align: start;
     margin-top: 0;
   }
 }
-.info-bottom__list-item {
+.bottom-list__item{
   margin-right: 10px;
 }
-.info-bottom__list-link {
+.bottom-list__link {
   font-family: $primary-font-family;
   font-weight: normal;
   font-size: 12px;

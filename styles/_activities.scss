@@ -15,7 +15,7 @@
   text-align: center;
   margin-bottom: 57px;
   @include media-breakpoint-up (xl) {
-   text-align: start;
+    text-align: start;
   }
 }
 .activities__cards {
@@ -40,7 +40,7 @@
   }
 }
 .activities__card-one {
-  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url('../images/activities_img_1_1X.jpg');
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0a223d 99.85%), url('../images/activities_img_1_1X.jpg');
   background-repeat: no-repeat;
   background-position: center;
   @include retina-img() {
@@ -48,7 +48,7 @@
   }
 }
 .activities__card-two {
-  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url('../images/activities_img_2_1X.jpg');
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0a223d 99.85%), url('../images/activities_img_2_1X.jpg');
   background-repeat: no-repeat;
   background-position: center;
   @include retina-img() {
@@ -56,7 +56,7 @@
   }
 }
 .activities__card-three {
-  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url('../images/activities_img_3_1X.jpg');
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0a223d 99.85%), url('../images/activities_img_3_1X.jpg');
   background-repeat: no-repeat;
   background-position: center;
   @include retina-img() {
@@ -64,7 +64,7 @@
   }
 }
 .activities__card-four {
-  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url('../images/activities_img_4_1X.jpg');
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0a223d 99.85%), url('../images/activities_img_4_1X.jpg');
   background-repeat: no-repeat;
   background-position: center;
   @include retina-img() {

@@ -240,7 +240,7 @@
   text-align: center;
   &:hover {
     color: #440d8b;
-    background: $secondary-color;
+    background: $primary-color;
   }
   &:focus {
     color: #85ca16;
@@ -312,15 +312,14 @@
     content: '';
     display: block;
     height: 4px;
-    width: 0%;
+    width: 0;
     margin-left: auto;
     margin-right: auto;
     background: $tertiary-color;
     margin-top: 15px;
     transition: width 0.3s;
   }
-  &:hover,
-  &--active {
+  &:hover {
     color: $tertiary-color;
     &:after {
       width: 100%;
@@ -335,6 +334,11 @@
   @include media-breakpoint-up (lg) {
     font-size: 12px;
   }   
+}
+.hotel-menu__button--active {
+  color: $tertiary-color;
+    &:after {
+      width: 100%;
 }
 .hotel__package-highlights {
   margin-bottom: 32px;
@@ -374,7 +378,7 @@
 .hotel__package-datails {
   padding-top: 38px;
 }
-.hotel-highlights__list-item {
+.highlights-list__item {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -394,11 +398,16 @@
   @include media-breakpoint-up (md) {
     font-size: 12px;
     &:last-child {
+      margin-bottom: 18px;
+    }
+  }  
+  @include media-breakpoint-up (lg) {
+    &:last-child {
       margin-bottom: 30px;
     }
   }  
 }
-.hotel-distinctive__list-item {
+.distinctive-list__item {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -419,7 +428,7 @@
     font-size: 12px;
   }  
 }
-.hotel-activities__list-item {
+.activities-list__item {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -443,7 +452,7 @@
     }
   }  
 }
-.hotel-details__list-item {
+.details-list__item {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -475,14 +484,14 @@
   border-radius: 50%;
   padding: 3px;
 }
-.hotel__details {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  @include media-breakpoint-up (lg) {
-    flex-direction: row;
-  }  
-}
+// .hotel__details {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   @include media-breakpoint-up (lg) {
+//     flex-direction: row;
+//   }  
+// }
 .hotel__details-text {
   display: flex;
   justify-content: center;
@@ -513,9 +522,8 @@
   font-size: 14px;
   line-height: 1.3;
   color: $primary-text-color;
-  margin-left: 50px;
+  margin-left: 60px;
   @include media-breakpoint-up (sm) {
-    margin-left: 60px;
     justify-content: start;
     font-size: 18px;
   }  
